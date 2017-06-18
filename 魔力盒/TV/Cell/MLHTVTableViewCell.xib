@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1421" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MLHTVTableViewCell" id="KGk-i7-Jjw" customClass="MLHTVTableViewCell" customModule="魔力盒" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="211"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="210.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HhP-rY-MvM">
+                        <rect key="frame" x="0.0" y="0.0" width="325" height="211"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tac-e8-ETc">
+                        <rect key="frame" x="8" y="157" width="304" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="zMp-F9-31s"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="HhP-rY-MvM" secondAttribute="trailing" constant="-5" id="8zb-Mr-CoB"/>
+                    <constraint firstAttribute="bottom" secondItem="HhP-rY-MvM" secondAttribute="bottom" constant="-0.5" id="PV9-wW-hDv"/>
+                    <constraint firstItem="HhP-rY-MvM" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="TxT-08-EiX"/>
+                    <constraint firstItem="Tac-e8-ETc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="dOa-8n-LfR"/>
+                    <constraint firstItem="HhP-rY-MvM" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="r3R-hr-3RC"/>
+                    <constraint firstItem="Tac-e8-ETc" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="tww-94-oOl"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Tac-e8-ETc" secondAttribute="bottom" constant="24.5" id="vIV-zB-ecb"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="backImageView" destination="HhP-rY-MvM" id="Q4n-jC-gfU"/>
+                <outlet property="titleLabel" destination="Tac-e8-ETc" id="gpJ-w0-G1d"/>
+            </connections>
+            <point key="canvasLocation" x="34" y="53.5"/>
+        </tableViewCell>
+    </objects>
+</document>
