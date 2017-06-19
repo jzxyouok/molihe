@@ -7,6 +7,6 @@
 //
 
 import Foundation
-let requestURLHeader:String = "https://magicapi.vmovier.cc/"
-let findmagictv:String = "magicapiv2/find/magictv"
+let requestURLHeader:String = "https://magicapi.vmovier.cc/magicapiv2/"
+let findmagictv:String = "find/magictv"
 

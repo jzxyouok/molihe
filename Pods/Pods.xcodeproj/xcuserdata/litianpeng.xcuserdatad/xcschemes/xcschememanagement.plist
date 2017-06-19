@@ -14,7 +14,12 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>ObjectMapper.xcscheme</key>
+		<key>MBProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MJRefresh.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -24,7 +29,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Reachability.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>SwiftyJSON.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>YYKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -37,7 +52,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>37569D89171B1D75CBF60CFD186BA32F</key>
+		<key>41FA54D12162DAD51D02FC58A2CD5034</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>43CB0470810C763EDB37C6236F5B521D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4FC800C21D5C8227E66C2337DE8214DA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -47,12 +72,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B46DF0FFA86926A1FF9DE2C2CDFE90C8</key>
+		<key>AE8036A4398E4E17C7440C477D580D69</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CD6C9FB6B052E1CF663F8A56041EA163</key>
+		<key>E14A62900910444707A5504D25EC98DC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F1061B9434ACBBF413C28A020F24ECE8</key>
 		<dict>
 			<key>primary</key>
 			<true/>

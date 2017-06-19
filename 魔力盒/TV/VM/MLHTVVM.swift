@@ -20,7 +20,7 @@ class MLHTVVM {
             switch response.result {
             case .success(let value):
                 let whc = MLHFindMagicTV.deserialize(from: value as? NSDictionary)
-                  self?.whc = whc
+                self?.whc = whc
                 self?.reloadSignal.value = true
             case .failure(let error):
                 print(error)
