@@ -13,10 +13,17 @@ class MLHMainViewController: MLHBaseViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        let v = UIView(frame: CGRect(x: 100, y: 100, width: 100, height: 100))
+        v.backgroundColor = UIColor(0xff0033)
+        self.view.addSubview(v)
         // Do any additional setup after loading the view.
      }
  
+    @IBAction func pushAction(_ sender: Any) {
+        let vc = MLHTestViewController()
+        vc.hidesBottomBarWhenPushed = true
+        navigationController?.pushViewController(vc, animated: true)
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

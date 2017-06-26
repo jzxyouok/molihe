@@ -11,6 +11,8 @@
 		7609FFEE1EEA987D00913A71 /* HTTPFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7609FFED1EEA987D00913A71 /* HTTPFacade.swift */; };
 		7609FFF11EEAC0F500913A71 /* MLHApiInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7609FFF01EEAC0F500913A71 /* MLHApiInterface.swift */; };
 		76222B501EEEB7BD002D99A6 /* DispatchTimeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76222B4F1EEEB7BD002D99A6 /* DispatchTimeExtension.swift */; };
+		767080041EFE4A9B00656516 /* SwifterSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767080031EFE4A9B00656516 /* SwifterSwift.swift */; };
+		767080061EFE546000656516 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767080051EFE546000656516 /* UIColorExtension.swift */; };
 		769BDAD31EF4CDD700C5888B /* URIDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769BDAD21EF4CDD700C5888B /* URIDefine.swift */; };
 		76A3C8891EE3FF9F005FF3A2 /* MLHTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A3C8881EE3FF9F005FF3A2 /* MLHTabBarViewController.swift */; };
 		76A3C88F1EE40142005FF3A2 /* MLHNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A3C88E1EE40142005FF3A2 /* MLHNavigationViewController.swift */; };
@@ -29,13 +31,15 @@
 		76A559D31ED56FB2003BDBEE /* ___Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A559D21ED56FB2003BDBEE /* ___Tests.swift */; };
 		76A559DE1ED56FB2003BDBEE /* ___UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A559DD1ED56FB2003BDBEE /* ___UITests.swift */; };
 		76AA5A831EF157A70017CBBC /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AA5A821EF157A70017CBBC /* Singleton.swift */; };
-		76BF9E681EF27C20001BCE94 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BF9E671EF27C20001BCE94 /* Extension.swift */; };
 		76BF9E6A1EF28C39001BCE94 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BF9E691EF28C39001BCE94 /* ArrayExtension.swift */; };
-		76BF9E6C1EF28E60001BCE94 /* DictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BF9E6B1EF28E60001BCE94 /* DictionaryExtension.swift */; };
 		76E6DC2B1EEBDB2000759002 /* MLHTVTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E6DC291EEBDB2000759002 /* MLHTVTableViewCell.swift */; };
 		76E6DC2C1EEBDB2000759002 /* MLHTVTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76E6DC2A1EEBDB2000759002 /* MLHTVTableViewCell.xib */; };
 		76E6DC2E1EEBDB4D00759002 /* MLHTVVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E6DC2D1EEBDB4D00759002 /* MLHTVVM.swift */; };
 		76E6DC311EEBE7A700759002 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E6DC301EEBE7A700759002 /* Observable.swift */; };
+		76EFC3201EF7EBC900F5EA66 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EFC31F1EF7EBC900F5EA66 /* UIViewControllerExtension.swift */; };
+		76EFC3231EF7F4C400F5EA66 /* MLHTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EFC3211EF7F4C400F5EA66 /* MLHTestViewController.swift */; };
+		76EFC3241EF7F4C400F5EA66 /* MLHTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76EFC3221EF7F4C400F5EA66 /* MLHTestViewController.xib */; };
+		76FD6E0E1EF8C10B00639D9B /* UIViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FD6E0D1EF8C10B00639D9B /* UIViewControllerProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +66,8 @@
 		7609FFED1EEA987D00913A71 /* HTTPFacade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPFacade.swift; sourceTree = "<group>"; };
 		7609FFF01EEAC0F500913A71 /* MLHApiInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLHApiInterface.swift; sourceTree = "<group>"; };
 		76222B4F1EEEB7BD002D99A6 /* DispatchTimeExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchTimeExtension.swift; sourceTree = "<group>"; };
+		767080031EFE4A9B00656516 /* SwifterSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwifterSwift.swift; sourceTree = "<group>"; };
+		767080051EFE546000656516 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		769BDAD21EF4CDD700C5888B /* URIDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URIDefine.swift; sourceTree = "<group>"; };
 		76A3C8881EE3FF9F005FF3A2 /* MLHTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLHTabBarViewController.swift; sourceTree = "<group>"; };
 		76A3C88E1EE40142005FF3A2 /* MLHNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLHNavigationViewController.swift; sourceTree = "<group>"; };
@@ -86,13 +92,15 @@
 		76A559DD1ED56FB2003BDBEE /* ___UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___UITests.swift"; sourceTree = "<group>"; };
 		76A559DF1ED56FB2003BDBEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76AA5A821EF157A70017CBBC /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
-		76BF9E671EF27C20001BCE94 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		76BF9E691EF28C39001BCE94 /* ArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
-		76BF9E6B1EF28E60001BCE94 /* DictionaryExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryExtension.swift; sourceTree = "<group>"; };
 		76E6DC291EEBDB2000759002 /* MLHTVTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLHTVTableViewCell.swift; sourceTree = "<group>"; };
 		76E6DC2A1EEBDB2000759002 /* MLHTVTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MLHTVTableViewCell.xib; sourceTree = "<group>"; };
 		76E6DC2D1EEBDB4D00759002 /* MLHTVVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLHTVVM.swift; sourceTree = "<group>"; };
 		76E6DC301EEBE7A700759002 /* Observable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		76EFC31F1EF7EBC900F5EA66 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		76EFC3211EF7F4C400F5EA66 /* MLHTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLHTestViewController.swift; sourceTree = "<group>"; };
+		76EFC3221EF7F4C400F5EA66 /* MLHTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MLHTestViewController.xib; sourceTree = "<group>"; };
+		76FD6E0D1EF8C10B00639D9B /* UIViewControllerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +201,8 @@
 			isa = PBXGroup;
 			children = (
 				76A3C8911EE40191005FF3A2 /* C */,
+				76EFC3211EF7F4C400F5EA66 /* MLHTestViewController.swift */,
+				76EFC3221EF7F4C400F5EA66 /* MLHTestViewController.xib */,
 			);
 			path = MLH;
 			sourceTree = "<group>";
@@ -324,10 +334,12 @@
 				76E6DC301EEBE7A700759002 /* Observable.swift */,
 				76222B4F1EEEB7BD002D99A6 /* DispatchTimeExtension.swift */,
 				76AA5A821EF157A70017CBBC /* Singleton.swift */,
-				76BF9E671EF27C20001BCE94 /* Extension.swift */,
 				76BF9E691EF28C39001BCE94 /* ArrayExtension.swift */,
-				76BF9E6B1EF28E60001BCE94 /* DictionaryExtension.swift */,
 				769BDAD21EF4CDD700C5888B /* URIDefine.swift */,
+				76FD6E0D1EF8C10B00639D9B /* UIViewControllerProtocol.swift */,
+				76EFC31F1EF7EBC900F5EA66 /* UIViewControllerExtension.swift */,
+				767080031EFE4A9B00656516 /* SwifterSwift.swift */,
+				767080051EFE546000656516 /* UIColorExtension.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -445,6 +457,7 @@
 			files = (
 				76A559C81ED56FB2003BDBEE /* LaunchScreen.storyboard in Resources */,
 				76A559C51ED56FB2003BDBEE /* Assets.xcassets in Resources */,
+				76EFC3241EF7F4C400F5EA66 /* MLHTestViewController.xib in Resources */,
 				76E6DC2C1EEBDB2000759002 /* MLHTVTableViewCell.xib in Resources */,
 				76A3C8A31EE401E1005FF3A2 /* MLHTVViewController.xib in Resources */,
 				76A3C89F1EE401D5005FF3A2 /* MLHMainViewController.xib in Resources */,
@@ -524,6 +537,7 @@
 			files = (
 				76E6DC311EEBE7A700759002 /* Observable.swift in Sources */,
 				76BF9E6A1EF28C39001BCE94 /* ArrayExtension.swift in Sources */,
+				76EFC3231EF7F4C400F5EA66 /* MLHTestViewController.swift in Sources */,
 				76A3C8891EE3FF9F005FF3A2 /* MLHTabBarViewController.swift in Sources */,
 				769BDAD31EF4CDD700C5888B /* URIDefine.swift in Sources */,
 				7609FFEE1EEA987D00913A71 /* HTTPFacade.swift in Sources */,
@@ -531,15 +545,17 @@
 				7609FFF11EEAC0F500913A71 /* MLHApiInterface.swift in Sources */,
 				76A3C9031EE404B1005FF3A2 /* MLHBaseViewController.swift in Sources */,
 				76A3C89E1EE401D5005FF3A2 /* MLHMainViewController.swift in Sources */,
-				76BF9E681EF27C20001BCE94 /* Extension.swift in Sources */,
-				76BF9E6C1EF28E60001BCE94 /* DictionaryExtension.swift in Sources */,
+				767080041EFE4A9B00656516 /* SwifterSwift.swift in Sources */,
 				76A559BE1ED56FB2003BDBEE /* AppDelegate.swift in Sources */,
+				76EFC3201EF7EBC900F5EA66 /* UIViewControllerExtension.swift in Sources */,
 				76A3C8A21EE401E1005FF3A2 /* MLHTVViewController.swift in Sources */,
 				76A3C88F1EE40142005FF3A2 /* MLHNavigationViewController.swift in Sources */,
 				76A3C89A1EE401C3005FF3A2 /* MLHMeViewController.swift in Sources */,
 				76E6DC2E1EEBDB4D00759002 /* MLHTVVM.swift in Sources */,
 				76222B501EEEB7BD002D99A6 /* DispatchTimeExtension.swift in Sources */,
 				76AA5A831EF157A70017CBBC /* Singleton.swift in Sources */,
+				767080061EFE546000656516 /* UIColorExtension.swift in Sources */,
+				76FD6E0E1EF8C10B00639D9B /* UIViewControllerProtocol.swift in Sources */,
 				76A3C8961EE401B8005FF3A2 /* MLHFindViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

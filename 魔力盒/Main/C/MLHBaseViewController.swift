@@ -8,12 +8,13 @@
 
 import UIKit
 
-class MLHBaseViewController: UIViewController {
+class MLHBaseViewController: UIViewController,ViewControllerProtocol {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor.white
         // Do any additional setup after loading the view.
+        self.closeTranslucent()
     }
 
     override func didReceiveMemoryWarning() {
