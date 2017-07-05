@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  魔力盒
+//  MLH
 //
 //  Created by Haitang on 17/5/24.
 //  Copyright © 2017年 李天鹏. All rights reserved.

@@ -1,6 +1,6 @@
 //
 //  Singleton.swift
-//  魔力盒
+//  MLH
 //
 //  Created by Haitang on 17/6/14.
 //  Copyright © 2017年 Haitang. All rights reserved.

@@ -1,12 +1,13 @@
 //
 //  MLHTVViewController.swift
-//  魔力盒
+//  MLH
 //
 //  Created by Haitang on 17/6/4.
 //  Copyright © 2017年 Haitang. All rights reserved.
 //
 
 import UIKit
+import MBProgressHUD
 
 class MLHTVViewController: MLHBaseViewController {
     var VM:MLHTVVM = MLHTVVM()
@@ -15,6 +16,7 @@ class MLHTVViewController: MLHBaseViewController {
     var tableView:UITableView = {
         let tab = UITableView(frame: CGRect(x: 0, y: 0, width: 320, height: 568-64), style: UITableViewStyle.plain)
         tab.register(UINib(nibName: "MLHTVTableViewCell", bundle: nil), forCellReuseIdentifier: "MLHTVTableViewCell")
+        tab.separatorStyle = .none
         return tab
     }()
     override func viewDidLoad() {
@@ -23,21 +25,13 @@ class MLHTVViewController: MLHBaseViewController {
         tableView.delegate = self
         tableView.dataSource = self
         view.addSubview(self.tableView)
-        print(getTimeNow())
-        DispatchQueue.main.asyncAfter(deadline: 0.3) {
-            print(self.getTimeNow())
-            self.loadVM()
-        }
+        self.loadVM()
     }
     
-    func getTimeNow() -> String{
-        let formatter = DateFormatter()
-        formatter.dateFormat = "YYYY-MM-dd hh:mm:ss:SSS"
-        let date = formatter.string(from: Date())
-        return date
-    }
+
     fileprivate func loadVM(){
         VM.loadTVData()
+    
         VM.reloadSignal.observe {[weak self] (reload) in
             if reload {
                 self?.tableView.reloadData()
