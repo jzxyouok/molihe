@@ -16,7 +16,7 @@ class MLHTestViewController: MLHBaseViewController {
         self.navigationController?.navigationBar.isHidden = false
         // Do any additional setup after loading the view.
        self.view.backgroundColor = UIColor.white
-    }
+     }
  
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

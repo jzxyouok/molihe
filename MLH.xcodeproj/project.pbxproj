@@ -11,6 +11,7 @@
 		7609FFEE1EEA987D00913A71 /* HTTPFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7609FFED1EEA987D00913A71 /* HTTPFacade.swift */; };
 		7609FFF11EEAC0F500913A71 /* MLHApiInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7609FFF01EEAC0F500913A71 /* MLHApiInterface.swift */; };
 		76222B501EEEB7BD002D99A6 /* DispatchTimeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76222B4F1EEEB7BD002D99A6 /* DispatchTimeExtension.swift */; };
+		766D0E171F0F2F32005B05F9 /* MLHCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766D0E161F0F2F32005B05F9 /* MLHCorner.swift */; };
 		767080041EFE4A9B00656516 /* SwifterSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767080031EFE4A9B00656516 /* SwifterSwift.swift */; };
 		767080061EFE546000656516 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767080051EFE546000656516 /* UIColorExtension.swift */; };
 		7677DDBF1F0BB2B60004779E /* ImageTint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7677DDBE1F0BB2B60004779E /* ImageTint.swift */; };
@@ -68,6 +69,7 @@
 		7609FFF01EEAC0F500913A71 /* MLHApiInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLHApiInterface.swift; sourceTree = "<group>"; };
 		76222B4F1EEEB7BD002D99A6 /* DispatchTimeExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchTimeExtension.swift; sourceTree = "<group>"; };
 		765806D31F0BBCC4000A4DB9 /* MLH-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MLH-Bridging-Header.h"; sourceTree = "<group>"; };
+		766D0E161F0F2F32005B05F9 /* MLHCorner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLHCorner.swift; sourceTree = "<group>"; };
 		767080031EFE4A9B00656516 /* SwifterSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwifterSwift.swift; sourceTree = "<group>"; };
 		767080051EFE546000656516 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		7677DDBE1F0BB2B60004779E /* ImageTint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTint.swift; sourceTree = "<group>"; };
@@ -164,6 +166,13 @@
 				7609FFF01EEAC0F500913A71 /* MLHApiInterface.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		765A8B5A1F0CC33D00AE85EE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		76A3C8861EE3FF65005FF3A2 /* Main */ = {
@@ -281,6 +290,7 @@
 		76A559BC1ED56FB2003BDBEE /* 魔力盒 */ = {
 			isa = PBXGroup;
 			children = (
+				765A8B5A1F0CC33D00AE85EE /* Utils */,
 				76E6DC2F1EEBE78F00759002 /* Common */,
 				7609FFEC1EEA983100913A71 /* NetworkLayer */,
 				76A3C88A1EE3FFFF005FF3A2 /* Find */,
@@ -345,6 +355,7 @@
 				767080031EFE4A9B00656516 /* SwifterSwift.swift */,
 				767080051EFE546000656516 /* UIColorExtension.swift */,
 				7677DDBE1F0BB2B60004779E /* ImageTint.swift */,
+				766D0E161F0F2F32005B05F9 /* MLHCorner.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -561,6 +572,7 @@
 				76E6DC2E1EEBDB4D00759002 /* MLHTVVM.swift in Sources */,
 				76222B501EEEB7BD002D99A6 /* DispatchTimeExtension.swift in Sources */,
 				76AA5A831EF157A70017CBBC /* Singleton.swift in Sources */,
+				766D0E171F0F2F32005B05F9 /* MLHCorner.swift in Sources */,
 				767080061EFE546000656516 /* UIColorExtension.swift in Sources */,
 				76FD6E0E1EF8C10B00639D9B /* UIViewControllerProtocol.swift in Sources */,
 				76A3C8961EE401B8005FF3A2 /* MLHFindViewController.swift in Sources */,

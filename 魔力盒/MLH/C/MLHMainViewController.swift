@@ -13,8 +13,9 @@ class MLHMainViewController: MLHBaseViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let v = UIView(frame: CGRect(x: 100, y: 100, width: 100, height: 100))
-        v.backgroundColor = UIColor(0xff0033)
+        let v:UIImageView = UIImageView(frame: CGRect(x: 100, y: 100, width: 100, height: 100))
+        v.image = UIImage.createImage(color: UIColor.red)
+        v.tg_addCorner(radius: 50, cornerDirection: [.bottomLeft,.topLeft])
         self.view.addSubview(v)
         // Do any additional setup after loading the view.
      }

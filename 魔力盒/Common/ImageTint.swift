@@ -5,9 +5,10 @@
 //  Created by Haitang on 17/7/4.
 //  Copyright © 2017年 Haitang. All rights reserved.
 //
-// copy by 王 巍
 import Foundation
 import UIKit
+
+// copy by 王 巍
 extension UIImage{
     func getImage(tintColor:UIColor) -> UIImage {
         return getImage(tintColor: tintColor, blendModel: .destinationIn)
@@ -29,4 +30,31 @@ extension UIImage{
         UIGraphicsEndImageContext()
         return tintedImage
     }
+  
+    class func createImage(color:UIColor) -> UIImage {
+        let rect = CGRect(x: 0, y: 0, width: 1.0, height: 1.0)
+        UIGraphicsBeginImageContext(rect.size)
+        let context:CGContext = UIGraphicsGetCurrentContext()!
+        context.setFillColor(color.cgColor)
+        context.fill(rect)
+        let image:UIImage = UIGraphicsGetImageFromCurrentImageContext()!
+        UIGraphicsEndImageContext()
+        return image
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
